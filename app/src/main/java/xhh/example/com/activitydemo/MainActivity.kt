@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         super.onActivityResult(requestCode, resultCode, data)
         when (requestCode){
             PICK_CONTACT_REQUEST->{
-                if (resultCode==Activity.RESULT_OK){
+                if (resultCode==10){
                     id_startactivity_forresult.text = data?.getStringExtra("result")
                 }
             }
