@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ActivityDemo</string>
+    <string name="start_activity">开启另一个活动</string>
+    <string name="start_activity_forresult">开启另一个活动并返回结果</string>
 </resources>
